@@ -77,43 +77,43 @@ model Users {
 - [x] 23. Ajouter les propriétés : `Pseudo` et `Mail` dans le DTO `create-user`.
 - [x] 24. Définir le service Prisma en tant que provider du module `Users`.
 - [x] 25. Implémenter la logique de la route `create` du controller `User` afin de créer un nouvel utilisateur dans la base de données.
-- [ ] 26. Créer une route pour récupérer les informations d'un utilisateur par son UUID.
-- [ ] 27. Créer une route pour modifier les informations d'un utilisateur.
-- [ ] 28. Créer une route pour supprimer un utilisateur par son UUID.
-- [ ] 29. Normaliser toutes les réponses du controller `Users` sous le format suivant : 
+- [x] 26. Créer une route pour récupérer les informations d'un utilisateur par son UUID.
+- [x] 27. Créer une route pour modifier les informations d'un utilisateur.
+- [x] 28. Créer une route pour supprimer un utilisateur par son UUID.
+- [x] 29. Normaliser toutes les réponses du controller `Users` sous le format suivant : 
     - Un champ de message qui doit dire que l'opération à bien été exécutée nommé `message`.
     - Un champ de données qui doit contenir le résultat de l'opération nommé `data`.
-- [ ] 30. Préparer la validation des données envoyées par l'utilisateur en utilisant la `Validation Pipe` et ses décorateurs.
-- [ ] 31. Utiliser la `Validation Pipe` comme ` Pipe`.
-- [ ] 32. Transformer automatiquement les données envoyées par l'utilisateur dans le type attendu dans le DTO grâce à la `Validation Pipe`.
+- [x] 30. Préparer la validation des données envoyées par l'utilisateur en utilisant la `Validation Pipe` et ses décorateurs.
+- [x] 31. Utiliser la `Validation Pipe` comme ` Pipe`.
+- [x] 32. Transformer automatiquement les données envoyées par l'utilisateur dans le type attendu dans le DTO grâce à la `Validation Pipe`.
 
 </details>
 <details open>
 <summary><h2>Documentation de l'API : Swagger</h2></summary>
 
-- [ ] 33. Installer `Swagger` en tant que dépendance du projet.
-- [ ] 34. Initialiser `Swagger` pour être utilisé par Nest.
-- [ ] 35. Utiliser le décorateur `Swagger` approprié pour documenter les routes du controller `Users` séparément.
-- [ ] 36. Documenter les champs du DTO de création d'utilisateur en utilisant le décorateur `Swagger` approprié.
-- [ ] 37. Tester la documentation Swagger en se rendant à l'URL `http://localhost:3000/api` ([s'y rendre](http://localhost:3000/api))
+- [x] 33. Installer `Swagger` en tant que dépendance du projet.
+- [x] 34. Initialiser `Swagger` pour être utilisé par Nest.
+- [x] 35. Utiliser le décorateur `Swagger` approprié pour documenter les routes du controller `Users` séparément.
+- [x] 36. Documenter les champs du DTO de création d'utilisateur en utilisant le décorateur `Swagger` approprié.
+- [x] 37. Tester la documentation Swagger en se rendant à l'URL `http://localhost:3000/api` ([s'y rendre](http://localhost:3000/api))
 
 </details>
 <details open>
 <summary><h2>CRUD pour les produits</h2></summary>
 
-- [ ] 38. Créer une route et ses besoins annexes pour enregistrer de nouveaux article.
-- [ ] 39. Créer une route pour récupérer un article par son UUID.
-- [ ] 40. Créer une route et ses besoins annexes pour modifier les informations d'un article par son UUID.
-- [ ] 41. Créer une route pour supprimer un article par son UUID.
+- [x] 38. Créer une route et ses besoins annexes pour enregistrer de nouveaux article.
+- [x] 39. Créer une route pour récupérer un article par son UUID.
+- [x] 40. Créer une route et ses besoins annexes pour modifier les informations d'un article par son UUID.
+- [x] 41. Créer une route pour supprimer un article par son UUID.
 
 </details>
 <details open>
 <summary><h2>Utilisation d'un service depuis un autre module</h2></summary>
 
-- [ ] 42. Définir le service `Products` en tant que provider du module `Users`.
-- [ ] 43. Créer une méthode dans le service `Products` pour récupérer tous les articles d'un utilisateur en fonction de l'UUID de l'utilisateur.
-- [ ] 44. Créer une route dans le controller `Users` qui retourne les articles d'un utilisateur.
-- [ ] 45. Faire la même chose pour supprimer les articles d'un utilisateur.
+- [x] 42. Définir le service `Products` en tant que provider du module `Users`.
+- [x] 43. Créer une méthode dans le service `Products` pour récupérer tous les articles d'un utilisateur en fonction de l'UUID de l'utilisateur.
+- [x] 44. Créer une route dans le controller `Users` qui retourne les articles d'un utilisateur.
+- [x] 45. Faire la même chose pour supprimer les articles d'un utilisateur.
 
 </details>
 
